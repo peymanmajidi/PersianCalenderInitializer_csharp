@@ -13,7 +13,9 @@ Even SQL Server Transactions
 
 Persian Hint:      تبدیل کلیه  تاریخ ها به هجری شمسی
   با یکبار فراخوانی اولیه این فایل
-   
+
+# How to it works
+
 ## ASP.Net Core & ASP.Net 5+
 Solution Explorer > Startup.cs
 ```csharp
@@ -50,6 +52,23 @@ Solution Explorer > Program.cs
             Cultures.InitializePersianCulture(); // <------------------ add this line
             ...
         }
+```
+
+
+# Usage
+Print the current date
+
+```csharp
+      var today = DateTime.Now;
+            Console.WriteLine(today.ToLongDateString()); // 1400 شهریور 27, شنبه
+      var year = today.Year;  // =1400
+```
+
+Sql Server Queris
+```csharp
+  var today_books = _context.Books.Where(p=>p.RegisterDate.Date == DateTime.Now.Date);  // fetch books registered today
+  foreach(var book in books)
+        print(book.RegisterDate);  // 1400 شهریور 27, شنبه
 ```
 
 
