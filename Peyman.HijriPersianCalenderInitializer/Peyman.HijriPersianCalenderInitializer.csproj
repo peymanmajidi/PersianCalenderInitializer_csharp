@@ -19,8 +19,8 @@
       app.UseRequestLocalization();
     </Description>
     <Copyright>Free</Copyright>
-    <RepositoryUrl>https://github.com/peymanmajidi/Hijri-Persian-Culture_ASP.NET</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/peymanmajidi/Hijri-Persian-Culture_ASP.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/peymanmajidi/Peyman.HijriPersianCalenderInitializer</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/peymanmajidi/Peyman.HijriPersianCalenderInitializer</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
