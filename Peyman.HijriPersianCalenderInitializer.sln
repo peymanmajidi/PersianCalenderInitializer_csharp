@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peyman.HijriPersianCalenderInitializer", "Peyman.HijriPersianCalenderInitializer\Peyman.HijriPersianCalenderInitializer.csproj", "{A7E34C17-AF0A-4C66-B7A9-2B4CDBC9EAE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7E34C17-AF0A-4C66-B7A9-2B4CDBC9EAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E34C17-AF0A-4C66-B7A9-2B4CDBC9EAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E34C17-AF0A-4C66-B7A9-2B4CDBC9EAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E34C17-AF0A-4C66-B7A9-2B4CDBC9EAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B945E764-6493-4762-BBC3-B4192682DA7A}
+	EndGlobalSection
+EndGlobal

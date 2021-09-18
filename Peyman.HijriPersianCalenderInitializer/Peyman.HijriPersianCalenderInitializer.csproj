@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Peyman Majidi Moein</Authors>
+    <Company>Peyman Majidi Moein</Company>
+    <Product>Hijri Persian Calender Culture initializer</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>Banner.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIconUrl />
+    <PackageTags>تقویم هجری شمسی, Hijri Culture, Persian Calender, Persian Culture, Hijri, Hejri</PackageTags>
+    <PackageId>PeymanMajdii.HijriPersianCalender</PackageId>
+    <Description>
+      Intilize persian culture means every usage of DateTime becomes to Hijri and there is no any concern and extra work needed.
+      Simply print datetime in Hijri by `DateTime.Now` or in SQL Server Transactions.
+      Persian Calender as default date/time culture simply by adding this two line in the Startup.cs:
+      Cultures.InitializePersianCulture();
+      app.UseRequestLocalization();
+    </Description>
+    <Copyright>Free</Copyright>
+    <RepositoryUrl>https://github.com/peymanmajidi/Hijri-Persian-Culture_ASP.NET</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/peymanmajidi/Hijri-Persian-Culture_ASP.NET</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Banner.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+
+  </ItemGroup>
+
+</Project>
