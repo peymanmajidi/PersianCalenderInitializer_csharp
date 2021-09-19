@@ -23,6 +23,7 @@
     <PackageProjectUrl>https://github.com/peymanmajidi/Peyman.HijriPersianCalenderInitializer</PackageProjectUrl>
     <AssemblyName>PersianCultureInitializer</AssemblyName>
     <RootNamespace>PersianCultureInitializer</RootNamespace>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
