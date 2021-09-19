@@ -9,8 +9,6 @@ Persian Calender as default date/time culture.
 Convert every use of DateTime to Persion Culture
 Even SQL Server Transactions
 
-![Screenshot](Peyman.HijriPersianCalenderInitializer/Banner.png)
-
 Persian Hint:      تبدیل کلیه  تاریخ ها به هجری شمسی
   با یکبار فراخوانی اولیه این فایل
 
