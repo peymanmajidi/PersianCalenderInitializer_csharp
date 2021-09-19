@@ -12,7 +12,11 @@ Even SQL Server Transactions
 Persian Hint:      تبدیل کلیه  تاریخ ها به هجری شمسی
   با یکبار فراخوانی اولیه این فایل
 
-# How it works
+# How to Install
+
+    Install-Package PersianCultureInitializer -Version 1.0.1   
+
+# How to call the initilizer
 
 ## ASP.Net Core & ASP.Net 5+
 Solution Explorer > Startup.cs
@@ -60,6 +64,7 @@ Print the current date
       var today = DateTime.Now;
       Console.WriteLine(today.ToLongDateString()); // 1400 شهریور 27, شنبه
       var year = today.Year;  // =1400
+   // as you see there is no effort
 ```
 
 Sql Server Queris
@@ -69,4 +74,5 @@ Sql Server Queris
         print(book.RegisterDate);  // 1400 شهریور 27, شنبه
 ```
 
-
+## NuGet
+[ PersianCultureInitializer ](https://www.nuget.org/packages/PersianCultureInitializer/1.0.1)
