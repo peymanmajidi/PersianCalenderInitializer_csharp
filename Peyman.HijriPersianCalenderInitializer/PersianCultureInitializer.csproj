@@ -4,13 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
     <Authors>Peyman Majidi Moein</Authors>
     <Company>Peyman Majidi Moein</Company>
-    <Product>Hijri Persian Calender Culture initializer</Product>
+    <Product>Persian Calender Culture initializer</Product>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>Banner.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIconUrl />
     <PackageTags>تقویم هجری شمسی, Hijri Culture, Persian Calender, Persian Culture, Hijri, Hejri</PackageTags>
-    <PackageId>PeymanMajdii.HijriPersianCalender</PackageId>
+    <PackageId>PersianCultureInitializer</PackageId>
     <Description>
       Intilize persian culture means every usage of DateTime becomes to Hijri and there is no any concern and extra work needed.
       Simply print datetime in Hijri by `DateTime.Now` or in SQL Server Transactions.
@@ -21,6 +21,8 @@
     <Copyright>Free</Copyright>
     <RepositoryUrl>https://github.com/peymanmajidi/Peyman.HijriPersianCalenderInitializer</RepositoryUrl>
     <PackageProjectUrl>https://github.com/peymanmajidi/Peyman.HijriPersianCalenderInitializer</PackageProjectUrl>
+    <AssemblyName>PersianCultureInitializer</AssemblyName>
+    <RootNamespace>PersianCultureInitializer</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,7 +30,7 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
 
 
   </ItemGroup>

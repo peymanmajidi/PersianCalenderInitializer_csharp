@@ -3,14 +3,14 @@ using System.Globalization;
 using System.Reflection;
 using System.Threading;
 
-namespace Peyman.HijriPersianCalenderInitializer
+namespace PersianCultureInitializer
 {
     public class Cultures
     {
         // Call this method to initialize Persian Hijri culture
-        public static void InitializePersianCulture()
+        public static void InitPersian()
         {
-            InitializeCulture("fa-ir", new[] { "ی", "د", "س", "چ", "پ", "ج", "ش" },
+            InitCulture("fa-ir", new[] { "ی", "د", "س", "چ", "پ", "ج", "ش" },
                               new[] { "یکشنبه", "دوشنبه", "سه شنبه", "چهارشنبه", "پنجشنبه", "جمعه", "شنبه" },
                               new[]
                                   {
@@ -25,7 +25,7 @@ namespace Peyman.HijriPersianCalenderInitializer
         }
 
 
-        public static void InitializeCulture(string culture, string[] abbreviatedDayNames, string[] dayNames,
+        public static void InitCulture(string culture, string[] abbreviatedDayNames, string[] dayNames,
                                              string[] abbreviatedMonthNames, string[] monthNames, string amDesignator,
                                              string pmDesignator, string shortDatePattern, Calendar calendar)
         {
